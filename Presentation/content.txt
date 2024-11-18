@@ -1,0 +1,37 @@
+3) program uderstanding
+4) restructuring
+
+
+3:
+
+tools is
+ - codeai:
+ 	can decipher intricate code structures and explain them in plain English using machine learning.
+ 
+ - denigma:
+ 	read and explain code (line by linei) naturally, like a human, denigma explain code in conversational english
+ 	
+ - tabnine:
+ 	At its core, Tabnine utilizes an LLM, a type of artificial neural network trained on a massive dataset of code. This dataset includes open-source code, Stack Overflow Q&A entries. Tabnine doesn't just look at isolated lines of code. It analyzes the surrounding code, comments, and your overall coding style to provide context-aware suggestions.
+ 	
+ - deepcode:
+ 	This model focuses on the core structure and logic of the code, going beyond the specifics of a particular language.
+While some language-specific rules might exist, DeepCode can identify general issues like improper data handling, which apply across languages.
+
+
+4) restructuring:
+
+
+ - CodeScene (commercial) uses AI to analyze code dependencies and visualize them in a graph format. This allows developers to see how changes in one part of the codebase might ripple through the system, helping them make informed decisions during restructuring. CodeScene utilizes machine learning algorithms to analyze this historical data and identify patterns. These patterns can reveal hidden risks, areas with high technical debt, and potential bottlenecks in your codebase.
+ 
+ - DocuMate (commercial) uses AI to analyze code and automatically generate API reference documentation. This can save developers time during restructuring by keeping documentation synchronized with code changes.
+ 
+ 
+
+
+
+
+
+ 	
+ 	
+ 	

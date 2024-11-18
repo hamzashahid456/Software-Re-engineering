@@ -1,0 +1,25 @@
+Flow Diagram Prompt:
+
+Create data flow diagram for following,
+
+Student Management: This module handles student functionalities. It allows adding new students, displaying student information, modifying student records, and deleting students. (Classes student, functions like writestudent, displayalls, etc.)
+Book Management: This module handles book functionalities. It allows adding new books, displaying book information, modifying book records, and deleting books. (Classes book, functions like writebook, displayallb, etc.)
+File I/O: This module manages data persistence. It reads and writes student and book data to files (book.dat and student.dat). (File operations using fstream)
+Administrator Menu: This provides functionalities accessible only to administrators. It offers options from student and book management alongside functionalities specific to admins. (Function adminmenu)
+
+
+
+Class Diagram Prompt:
+
+Create data class diagram for following,
+
+Student Management: This module handles student functionalities. It allows adding new students, displaying student information, modifying student records, and deleting students. (Classes student, functions like writestudent, displayalls, etc.)
+Book Management: This module handles book functionalities. It allows adding new books, displaying book information, modifying book records, and deleting books. (Classes book, functions like writebook, displayallb, etc.)
+File I/O: This module manages data persistence. It reads and writes student and book data to files (book.dat and student.dat). (File operations using fstream)
+Administrator Menu: This provides functionalities accessible only to administrators. It offers options from student and book management alongside functionalities specific to admins. (Function adminmenu)
+
+
+
+
+
+

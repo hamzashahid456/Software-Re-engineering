@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_cyIOcNGYEe614_T2eeksOA" name="StateMachineCar">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_c3AucNGYEe614_T2eeksOA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_cy5DcNGYEe614_T2eeksOA" name="StateMachineOfCar">
+      <region xmi:type="uml:Region" xmi:id="_czpRYNGYEe614_T2eeksOA" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_NYCCgNGZEe614_T2eeksOA" source="_LLpDcNGZEe614_T2eeksOA" target="_lf-vYNGYEe614_T2eeksOA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_dDZIINGZEe614_T2eeksOA" source="_lf-vYNGYEe614_T2eeksOA" target="_XLuxMNGZEe614_T2eeksOA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_hmijMNGZEe614_T2eeksOA" source="_lf-vYNGYEe614_T2eeksOA" target="_rhzu8NGYEe614_T2eeksOA">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_jAzhwNGZEe614_T2eeksOA">
+            <body>Starting Engine</body>
+          </ownedComment>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_t_FNMNGZEe614_T2eeksOA" source="_lf-vYNGYEe614_T2eeksOA" target="_BKB0kNGZEe614_T2eeksOA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_xWGzYNGZEe614_T2eeksOA" source="_CNk8QNGZEe614_T2eeksOA" target="_BKB0kNGZEe614_T2eeksOA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_ykWvMNGZEe614_T2eeksOA" source="_BKB0kNGZEe614_T2eeksOA" target="_CNk8QNGZEe614_T2eeksOA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_0y8GoNGZEe614_T2eeksOA" source="_rhzu8NGYEe614_T2eeksOA" target="_BKB0kNGZEe614_T2eeksOA"/>
+        <subvertex xmi:type="uml:State" xmi:id="_lf-vYNGYEe614_T2eeksOA" name="Parked"/>
+        <subvertex xmi:type="uml:State" xmi:id="_rhzu8NGYEe614_T2eeksOA" name="Starting"/>
+        <subvertex xmi:type="uml:State" xmi:id="_BKB0kNGZEe614_T2eeksOA" name="Idle"/>
+        <subvertex xmi:type="uml:State" xmi:id="_CNk8QNGZEe614_T2eeksOA" name="Driving"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_LLpDcNGZEe614_T2eeksOA" name=""/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_XLuxMNGZEe614_T2eeksOA" name="Turn Off engine"/>
+      </region>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jBCLQNGZEe614_T2eeksOA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jBEngNGZEe614_T2eeksOA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_jBI48NGZEe614_T2eeksOA" base_Comment="_jAzhwNGZEe614_T2eeksOA" language="org.eclipse.papyrus.uml.textedit.transition.xtext.UmlTransition"/>
+</xmi:XMI>

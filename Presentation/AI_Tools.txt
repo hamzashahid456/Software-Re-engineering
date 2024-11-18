@@ -1,0 +1,14 @@
+1. CodeAI: CodeAI is an AI-powered code analysis tool that helps developers understand and improve their code by providing insights, recommendations, and explanations.
+
+2. Kite: Kite is an AI-powered code completion tool that helps developers write code faster and more accurately by providing intelligent code suggestions and completions.
+
+3. TabNine: TabNine is an AI-powered code completion tool that uses deep learning to provide intelligent code suggestions and completions based on the context of the code.
+
+4. DeepCode: DeepCode is an AI-powered code review tool that helps developers identify potential issues and bugs in their code by analyzing patterns and best practices.
+
+5. Codota: Codota is an AI-powered code completion tool that helps developers write code faster and more accurately by providing intelligent code suggestions and completions based on the context of the code.
+
+6. IntelliCode: IntelliCode is a set of AI-powered features in Visual Studio that help developers write better code by providing intelligent code suggestions and completions based on the context of the code.
+
+7. SourceAI: SourceAI is an AI-powered code analysis tool that helps developers understand and improve their code by providing insights, recommendations, and explanations based on machine learning algorithms.
+
